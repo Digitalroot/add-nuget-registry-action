@@ -6,7 +6,7 @@ The goal is to safeguard the credentials of the NuGet source(s) while still bein
 This action can be used on both hosted and self-hosted runners.
 GitHub hosted runners are ephemeral which means that at the conclusion of the workflow, the stored credentials are safely destroyed.
 If you are using a self-hosted runner, this action **does not** remove the sources it adds.
-This means that if you are in a situation where you need to remove the soruces at the conclusion of the workflow, you will need to handle this yourself.
+This means that if you are in a situation where you need to remove the sources at the conclusion of the workflow, you will need to handle this yourself.
 
 Below outlines the steps that you need to take to leverave this action in your workflow.
 
